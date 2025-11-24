@@ -1,6 +1,6 @@
 Shell script to add two numbers
 
-<u>Script 1</u>
+**Script 1**
 
 echo "Enter number 1:"
 read num1
