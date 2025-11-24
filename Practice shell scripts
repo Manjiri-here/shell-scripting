@@ -7,3 +7,15 @@ read num1
 echo "Enter number 2:"
 read num2
 echo "Addition of $num1 and $num2 is $(($num1 + $num2))"
+
+**Script 2** : Here we need to give input while executing the command itself for eg: ./24Nov.sh 5 5
+
+c=$(($1 + $2))
+
+echo "Addition of given numbers is $c"
+
+Note: Also there should be no space between c and + and ( on line 13 otherwise we get error: 
+MacBook-Pro shell-scripting % ./24nov.sh
+./24nov.sh: line 13: + : syntax error: operand expected (error token is " ")
+Addition of given numbers is
+
