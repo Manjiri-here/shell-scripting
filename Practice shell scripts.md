@@ -19,5 +19,4 @@ MacBook-Pro shell-scripting % ./24nov.sh
 ./24nov.sh: line 13: + : syntax error: operand expected (error token is " ")
 Addition of given numbers is
 
-**Write shel script to install the essesntail packages for devops setup: like docker, terraform, prometheus, grafana, kubectl , eksctl and also how can we write this script to implement on remote machine , so this installations can also be done on remote machines.**
-
+**Write shel script to install the essesntail packages for devops setup: like docker, terraform, git (check if it is not doesnt already exist) prometheus, grafana, kubectl , eksctl and also how can we write this script to implement on remote machine , so this installations can also be done on remote machines.**
