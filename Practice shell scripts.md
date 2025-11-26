@@ -20,3 +20,13 @@ MacBook-Pro shell-scripting % ./24nov.sh
 Addition of given numbers is
 
 **Write shel script to install the essesntail packages for devops setup: like docker, terraform, git (check if it is not doesnt already exist) prometheus, grafana, kubectl , eksctl and also how can we write this script to implement on remote machine , so this installations can also be done on remote machines.**
+
+For loop and if loop:
+
+for i in $(seq 1 99)
+do
+ if (( i % 2 != 0))
+ then
+  echo $i 
+ fi
+done
