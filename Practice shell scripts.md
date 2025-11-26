@@ -21,7 +21,7 @@ Addition of given numbers is
 
 **Write shel script to install the essesntail packages for devops setup: like docker, terraform, git (check if it is not doesnt already exist) prometheus, grafana, kubectl , eksctl and also how can we write this script to implement on remote machine , so this installations can also be done on remote machines.**
 
-For loop and if loop:
+1) For loop and if loop:
 
 for i in $(seq 1 99)
 do
@@ -30,3 +30,25 @@ do
   echo $i 
  fi
 done
+
+2) Write a Bash script which accepts name as input and displays the greeting "Welcome (name)"
+
+echo "Please enter your name:"
+read name
+echo "Welcome $name"
+
+3) Use a for loop to display the natural numbers from 1 to 50.
+
+for i in $(seq 1 50)
+do
+ echo $i
+done
+
+4) 
+read num1    
+read num2
+
+echo $((num1 + $num2))   
+echo $((num1 - $num2))
+echo $((num1 * $num2))
+echo $((num1 / $num2))   # / prints quotient while % prints remainder 
