@@ -44,11 +44,18 @@ do
  echo $i
 done
 
-4) 
-read num1    
-read num2
+4) To compare two numbers using if operator:
 
-echo $((num1 + $num2))   
-echo $((num1 - $num2))
-echo $((num1 * $num2))
-echo $((num1 / $num2))   # / prints quotient while % prints remainder 
+Note: Bash script requires space between [ and $x strictly, otherwise it is syntactically wrong
+
+read X
+read Y
+
+if [ $X -gt $Y ]; then
+ echo "X is greater than Y"
+elif [ $X -lt $Y ]; then
+ echo "X is less than Y"
+else
+ echo "X is equal to Y"
+fi
+
