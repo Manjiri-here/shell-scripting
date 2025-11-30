@@ -59,3 +59,9 @@ else
  echo "X is equal to Y"
 fi
 
+----
+29 November 2025
+
+----
+
+What <<EOF ... EOF REALLY is : This is called a Heredoc (Here Document) -> “Everything between <<EOF and the final EOF will be sent as input to the command on the left (tee).”
