@@ -1,4 +1,10 @@
 # shell-scripting
+
+
+Amazing shell script learning resource: https://www.linkedin.com/pulse/how-learn-linux-shell-scripting-devops-darshana-manikkuwadura-dash--d7aqe/?trackingId=q3MjMci1T3iLuFuqP1Hduw%3D%3D
+
+<img width="512" height="372" alt="• Using numeric comparison" src="https://github.com/user-attachments/assets/2925d227-123d-4aca-a81f-bb6d58208098" />
+￼
 shell commands, project and notes
 
 1) Shell script file should always be saved with extension '.sh'
